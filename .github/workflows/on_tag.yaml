@@ -33,5 +33,4 @@ jobs:
             --push \
             +build-image \
             --fusionauth_app_version=${{ env.RELEASE_VERSION }} \
-            --image_name=ghcr.io/${{ github.repository_owner }}/fusionauth-app-mysql \
-            --token ${{ secrets.GITHUB_TOKEN }}
+            --image_name=ghcr.io/${{ github.repository_owner }}/fusionauth-app-mysql
